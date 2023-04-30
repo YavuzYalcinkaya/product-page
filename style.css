@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-.product-info {
+.product-section {
   height: 864px;
   width: 720px;
   background: #fff;
@@ -105,4 +105,103 @@
   align-self: stretch;
   flex-grow: 0;
   position: absolute;
+}
+
+.slider {
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  height: 363px;
+  scroll-snap-align: center;
+}
+
+.product-cards {
+  display: flex;
+  gap: 32px;
+}
+
+.product-info {
+  height: 20px;
+  width: 230px;
+}
+
+.product-name {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 160%;
+  margin-top: 10px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  opacity: 72%;
+}
+
+.price-colors {
+  height: 20px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-top: 4px;
+}
+
+.right-arrow {
+  top: 140px;
+  right: 203px;
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+
+.colors {
+  display: flex;
+  gap: 7px;
+}
+
+.color-one {
+  box-sizing: border-box;
+  border: 1.5px solid #000;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.color-two {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #cc9999;
+}
+
+.color-three {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #cb99cc;
+}
+
+.color-four {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #a6cc99;
 }
