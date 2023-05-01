@@ -112,6 +112,11 @@ body {
 .slider {
   margin-top: 68px;
   max-width: 906px;
+  overflow-x: scroll;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .product-cards {
@@ -120,7 +125,6 @@ body {
 }
 
 .product-info {
-  height: 20px;
   width: 230px;
 }
 
@@ -262,7 +266,6 @@ body {
 
   .product-cards {
     display: flex;
-    max-width: 200px;
   }
 
   .product-info {
